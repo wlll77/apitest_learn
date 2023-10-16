@@ -28,7 +28,7 @@ def test_mobile():
 
 
 def test_mobile_post():
-    print("测试手机归属地get请求")
+    print("测试手机归属地post请求")
     params = {
         "shouji": "13456755448",
         "appkey": "0c818521d38759e1"

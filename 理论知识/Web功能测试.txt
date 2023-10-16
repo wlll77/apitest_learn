@@ -1,0 +1,61 @@
+1.请说出XHTML和HTML的区别？
+
+-文档顶部doctype声明不同，xhtml的doctype顶部声明中明确规定了xhtml DTD的写法
+
+-html元素必须正确嵌套，不能乱；属性必须是小写的；属性值必须加引号；标签必须有结束，单标签也应该用“/”来结束掉
+
+
+2.请写出至少6个HTML块元素标签
+
+div p ul li table h1 h2 h3 from等
+
+
+3.请写出至少5个HTML行内元素标签
+
+span a i label img input button textarea select等
+
+
+4.请写出table标签下面会包含哪些标签元素
+
+tr th td thead tbody tfoot等
+
+
+5.很多网站不常用table iframe这两个元素，知道原因吗？
+
+因为浏览器页面渲染的时候是从上至下的，而table和iframe这两种元素会改变这样的渲染规则，他们是要等待自己元素内的内容加载完才能整体渲染。用户体验很不好
+
+
+6.jpg和png格式的图片有什么区别？
+
+jpg是有损压缩格式，png是无损压缩格式。所以，相同的图片，jpg体积会更小。
+
+比如我们一些官网的banner图，一般都很大，所以适合用jpg类型的图片。
+
+但png分8位和24位，8位的体积会小很多，但在某些浏览器下8位的png图片会有锯齿。
+
+
+7.请至少写出5个H5的新标签
+
+header nav footer canvas datalist article mark
+
+
+8.a标签在新窗口打开链接怎么加属性？
+
+<a target="_blank">链接</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
