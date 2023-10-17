@@ -1,18 +1,13 @@
-import pytest
 import requests
-
-# 默认的scope是function
-# @pytest.fixture(scope='function',autouse=True)  #autoues是下面的方法自动应用
-# def func():
-#     print("我是前置步骤~")
+import pytest
 
 
-def test_mobile():
-    params = {
-        "shouji": "13456755448",
-        "appkey":"0c818521d38759e1"
-    }
-    r = requests.get(url="http://sellshop.5istudy.online/sell/shouji/query", params=params)
+def test_mobile(get_params):
+    print("测试手机号归属地get请求")
+    shouji = get_params["shouji"]
+    appkey = get_params["appkey"]
+    r = requests.get(url="http://sellshop.5istudy.online/sell/shouji/query",
+                     params={"shouji": shouji, "appkey": appkey})
     # r = requests.get(url="http://sellshop.5istudy.online/sell/shouji/query", params={"shouji": "13456755448","appkey":"0c818521d38759e1"})  #还可以这样写，直接把params写进去
     # print(r.status_code)
     # print(r.json())
@@ -25,14 +20,16 @@ def test_mobile():
     assert result['result']["company"] == "中国移动"
     assert result['result']["areacode"] == "0571"
 
+
 def test_mobile_post():
+    print("测试手机号归属地post请求")
     params = {
         "shouji": "13456755448",
-        "appkey":"0c818521d38759e1"
+        "appkey": "0c818521d38759e1"
     }
-    r = requests.post(url="http://sellshop.5istudy.online/sell/shouji/query",params=params)
-    # print(r.status_code)
-    # print(r.json())
+    r = requests.post(url="http://sellshop.5istudy.online/sell/shouji/query", params=params)
+    print(r.status_code)
+    print(r.json())
     assert r.status_code == 200
     result = r.json()
     assert result['status'] == 0
@@ -41,6 +38,3 @@ def test_mobile_post():
     assert result['result']["province"] == "北京"
     assert result['result']["company"] == "中国移动"
     assert result['result']["areacode"] == "0571"
-
-if __name__ == '__main__':
-    pytest.main()
