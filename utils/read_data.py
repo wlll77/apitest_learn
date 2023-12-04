@@ -1,9 +1,12 @@
+import os
+
 import yaml
 
-f = open("../config/data.yaml", encoding='utf8')
-data = yaml.safe_load(f)
+path = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), "config", "data.yaml")
+def read_data():
+    f = open(path, encoding='utf8')
+    data = yaml.safe_load(f)
+    print(data)
+    return data
 
-print(data['hero'])
-print(data['heros_name'])
-print(data['heros'])
-print(data['heros_name_list'])
+get_data = read_data()
