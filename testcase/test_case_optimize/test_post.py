@@ -1,5 +1,6 @@
 import pytest
 from api.api import test_json
+from utils.log_util import logger
 from utils.read import base_data
 
 

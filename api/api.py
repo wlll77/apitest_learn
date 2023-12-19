@@ -1,14 +1,14 @@
-import requests
-
+import json
 from core.api_util import api_util
-
-
-
+from utils.log_util import logger
+from utils.response_util import process_response
 
 
 def mobile_query(params):
     response = api_util.get_mobile_belong(params=params)
-    return response.json()
+    result = process_response(response)
+    return result
+
 
 def test_json(json_data):
     """
