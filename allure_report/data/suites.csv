@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Dec 20 09:23:31 CST 2023","Wed Dec 20 09:23:32 CST 2023","197","testcase.test_case_optimize","case_optimize","","","","test_mobile",""

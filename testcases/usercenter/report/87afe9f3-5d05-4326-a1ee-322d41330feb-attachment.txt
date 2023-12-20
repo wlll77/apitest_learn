@@ -1,0 +1,7 @@
+[2023-12-20 18:17:25,450][rest_client.py 46][INFO]: 接口请求的地址为>>>http://meikefresh.5istudy.online/code/
+[2023-12-20 18:17:25,450][rest_client.py 47][INFO]: 接口请求的方法>>>POST
+[2023-12-20 18:17:25,450][rest_client.py 51][INFO]: 接口请求的json参数>>>
+{
+  "mobile": 17325220663
+}
+[2023-12-20 18:17:25,521][response_util.py 14][INFO]: 接口状态码不是2开头，请检查

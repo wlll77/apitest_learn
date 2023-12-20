@@ -1,0 +1,239 @@
+[2023-12-20 09:13:17,943][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 09:13:17,947][rest_client.py 46][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-20 09:13:17,947][rest_client.py 47][INFO]: 接口请求的方法>>>GET
+[2023-12-20 09:13:17,947][rest_client.py 53][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-20 09:13:18,134][response_util.py 10][INFO]: 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[2023-12-20 09:13:18,135][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 09:23:31,881][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 09:23:31,883][rest_client.py 46][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-20 09:23:31,883][rest_client.py 47][INFO]: 接口请求的方法>>>GET
+[2023-12-20 09:23:31,883][rest_client.py 53][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-20 09:23:32,076][response_util.py 10][INFO]: 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[2023-12-20 09:23:32,077][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 12:32:56,128][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 12:32:56,131][rest_client.py 46][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-20 12:32:56,131][rest_client.py 47][INFO]: 接口请求的方法>>>GET
+[2023-12-20 12:32:56,131][rest_client.py 53][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-20 12:32:56,328][response_util.py 10][INFO]: 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[2023-12-20 12:32:56,329][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 12:33:25,152][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 12:33:25,154][rest_client.py 46][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-20 12:33:25,154][rest_client.py 47][INFO]: 接口请求的方法>>>GET
+[2023-12-20 12:33:25,154][rest_client.py 53][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-20 12:33:25,221][response_util.py 10][INFO]: 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[2023-12-20 12:33:25,222][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 12:37:55,464][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 12:37:55,467][rest_client.py 46][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-20 12:37:55,467][rest_client.py 47][INFO]: 接口请求的方法>>>GET
+[2023-12-20 12:37:55,467][rest_client.py 53][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-20 12:37:55,539][response_util.py 10][INFO]: 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[2023-12-20 12:37:55,540][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 12:38:19,746][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 12:38:19,749][rest_client.py 46][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-20 12:38:19,749][rest_client.py 47][INFO]: 接口请求的方法>>>GET
+[2023-12-20 12:38:19,749][rest_client.py 53][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-20 12:38:19,815][response_util.py 10][INFO]: 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[2023-12-20 12:38:19,815][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 12:38:52,448][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 12:38:52,450][rest_client.py 46][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-20 12:38:52,450][rest_client.py 47][INFO]: 接口请求的方法>>>GET
+[2023-12-20 12:38:52,450][rest_client.py 53][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-20 12:38:52,519][response_util.py 10][INFO]: 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[2023-12-20 12:38:52,520][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 12:40:55,686][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 12:40:55,689][rest_client.py 46][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-20 12:40:55,689][rest_client.py 47][INFO]: 接口请求的方法>>>GET
+[2023-12-20 12:40:55,689][rest_client.py 53][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-20 12:40:55,753][response_util.py 10][INFO]: 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[2023-12-20 12:40:55,754][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 12:40:55,757][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 12:40:55,759][rest_client.py 46][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-20 12:40:55,759][rest_client.py 47][INFO]: 接口请求的方法>>>GET
+[2023-12-20 12:40:55,759][rest_client.py 53][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-20 12:40:55,790][response_util.py 10][INFO]: 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[2023-12-20 12:40:55,791][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 12:42:39,257][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 12:42:39,260][rest_client.py 46][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-20 12:42:39,260][rest_client.py 47][INFO]: 接口请求的方法>>>GET
+[2023-12-20 12:42:39,260][rest_client.py 53][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-20 12:42:39,330][response_util.py 10][INFO]: 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[2023-12-20 12:42:39,331][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 12:42:39,333][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 12:42:39,335][rest_client.py 46][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-20 12:42:39,335][rest_client.py 47][INFO]: 接口请求的方法>>>GET
+[2023-12-20 12:42:39,335][rest_client.py 53][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-20 12:42:39,369][response_util.py 10][INFO]: 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[2023-12-20 12:42:39,370][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 12:42:39,372][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 12:42:39,375][rest_client.py 46][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-20 12:42:39,375][rest_client.py 47][INFO]: 接口请求的方法>>>GET
+[2023-12-20 12:42:39,375][rest_client.py 53][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-20 12:42:39,408][response_util.py 10][INFO]: 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[2023-12-20 12:42:39,449][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 12:50:37,978][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 12:50:37,981][rest_client.py 46][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-20 12:50:37,981][rest_client.py 47][INFO]: 接口请求的方法>>>GET
+[2023-12-20 12:50:37,981][rest_client.py 53][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-20 12:50:38,061][response_util.py 10][INFO]: 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[2023-12-20 12:50:38,061][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 12:50:38,064][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 12:50:38,067][rest_client.py 46][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-20 12:50:38,067][rest_client.py 47][INFO]: 接口请求的方法>>>GET
+[2023-12-20 12:50:38,067][rest_client.py 53][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-20 12:50:38,098][response_util.py 10][INFO]: 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[2023-12-20 12:50:38,099][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 12:50:38,101][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 12:50:38,137][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 14:43:49,079][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 14:43:49,082][rest_client.py 46][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-20 14:43:49,082][rest_client.py 47][INFO]: 接口请求的方法>>>GET
+[2023-12-20 14:43:49,082][rest_client.py 53][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-20 14:43:49,164][response_util.py 10][INFO]: 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[2023-12-20 14:43:49,165][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 14:43:49,168][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 14:43:49,170][rest_client.py 46][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-20 14:43:49,171][rest_client.py 47][INFO]: 接口请求的方法>>>GET
+[2023-12-20 14:43:49,171][rest_client.py 53][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-20 14:43:49,208][response_util.py 10][INFO]: 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[2023-12-20 14:43:49,208][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 14:43:49,210][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 14:43:49,248][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 14:57:12,806][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 14:57:12,809][rest_client.py 46][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-20 14:57:12,809][rest_client.py 47][INFO]: 接口请求的方法>>>GET
+[2023-12-20 14:57:12,809][rest_client.py 53][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-20 14:57:12,978][response_util.py 10][INFO]: 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[2023-12-20 14:57:12,979][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 15:05:50,118][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 15:05:50,152][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 15:07:09,024][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 15:07:09,031][rest_client.py 46][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-20 15:07:09,031][rest_client.py 47][INFO]: 接口请求的方法>>>GET
+[2023-12-20 15:07:09,031][rest_client.py 53][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-20 15:07:09,105][response_util.py 10][INFO]: 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[2023-12-20 15:07:09,106][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 15:07:57,471][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-20 15:07:57,478][rest_client.py 46][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-20 15:07:57,478][rest_client.py 47][INFO]: 接口请求的方法>>>GET
+[2023-12-20 15:07:57,478][rest_client.py 53][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-20 15:07:57,654][response_util.py 10][INFO]: 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[2023-12-20 15:07:57,654][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-20 18:15:10,016][rest_client.py 46][INFO]: 接口请求的地址为>>>http://meikefresh.5istudy.online/code/
+[2023-12-20 18:15:10,017][rest_client.py 47][INFO]: 接口请求的方法>>>POST
+[2023-12-20 18:15:10,017][rest_client.py 51][INFO]: 接口请求的json参数>>>
+{
+  "mobile": 15000000000
+}
+[2023-12-20 18:15:10,171][response_util.py 14][INFO]: 接口状态码不是2开头，请检查
+[2023-12-20 18:16:54,120][rest_client.py 46][INFO]: 接口请求的地址为>>>http://meikefresh.5istudy.online/code/
+[2023-12-20 18:16:54,121][rest_client.py 47][INFO]: 接口请求的方法>>>POST
+[2023-12-20 18:16:54,121][rest_client.py 51][INFO]: 接口请求的json参数>>>
+{
+  "mobile": 17325220664
+}
+[2023-12-20 18:16:54,189][response_util.py 14][INFO]: 接口状态码不是2开头，请检查
+[2023-12-20 18:17:25,450][rest_client.py 46][INFO]: 接口请求的地址为>>>http://meikefresh.5istudy.online/code/
+[2023-12-20 18:17:25,450][rest_client.py 47][INFO]: 接口请求的方法>>>POST
+[2023-12-20 18:17:25,450][rest_client.py 51][INFO]: 接口请求的json参数>>>
+{
+  "mobile": 17325220663
+}
+[2023-12-20 18:17:25,521][response_util.py 14][INFO]: 接口状态码不是2开头，请检查
+[2023-12-20 18:19:19,608][rest_client.py 46][INFO]: 接口请求的地址为>>>http://admin.5istudy.online/code/
+[2023-12-20 18:19:19,608][rest_client.py 47][INFO]: 接口请求的方法>>>POST
+[2023-12-20 18:19:19,608][rest_client.py 51][INFO]: 接口请求的json参数>>>
+{
+  "mobile": 17325220662
+}
+[2023-12-20 18:19:19,694][response_util.py 10][INFO]: 接口返回的内容是>>>: {"mobile": "17325220662"}
+[2023-12-20 18:21:48,016][rest_client.py 46][INFO]: 接口请求的地址为>>>http://admin.5istudy.online/code/
+[2023-12-20 18:21:48,016][rest_client.py 47][INFO]: 接口请求的方法>>>POST
+[2023-12-20 18:21:48,016][rest_client.py 51][INFO]: 接口请求的json参数>>>
+{
+  "mobile": 17325220662
+}
+[2023-12-20 18:21:48,097][response_util.py 14][INFO]: 接口返回的内容是>>>: {"mobile": "17325220662"}
+[2023-12-20 18:21:49,722][rest_client.py 46][INFO]: 接口请求的地址为>>>http://admin.5istudy.online/code/
+[2023-12-20 18:21:49,722][rest_client.py 47][INFO]: 接口请求的方法>>>POST
+[2023-12-20 18:21:49,722][rest_client.py 51][INFO]: 接口请求的json参数>>>
+{
+  "mobile": 17325220662
+}
+[2023-12-20 18:21:49,801][response_util.py 13][INFO]: 接口状态码不是2开头，请检查
+[2023-12-20 18:21:49,801][response_util.py 14][INFO]: 接口返回的内容是>>>: {"mobile": ["距离上次发送未超过1分钟"]}

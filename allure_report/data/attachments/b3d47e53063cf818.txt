@@ -1,0 +1,10 @@
+[32mINFO    [0m log:conftest.py:7 开始执行测试用例~
+[32mINFO    [0m log:rest_client.py:46 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[32mINFO    [0m log:rest_client.py:47 接口请求的方法>>>GET
+[32mINFO    [0m log:rest_client.py:53 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[32mINFO    [0m log:response_util.py:10 接口返回的内容是>>>: {"status": 0, "msg": "ok", "result": {"shouji": "13456755448", "province": "北京", "city": "北京", "company": "中国移动", "areacode": "0571"}}
+[32mINFO    [0m log:conftest.py:9 测试用例执行完毕~

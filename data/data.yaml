@@ -58,6 +58,14 @@ mobile_belong:
   shouji: 13456755448
   appkey: 0c818521d38759e1
 
+
+mobile_belong_dynamic:
+  params:
+    shouji: 13456755448
+    appkey: 0c818521d38759e1
+  title: 测试手机号归属地title-动态
+  story: 北京的手机号story-动态
+
 mobile_belong_get:
   # 手机号，appkey
   - [13456755448, 0c818521d38759e1]
@@ -65,3 +73,6 @@ mobile_belong_get:
 
 
 json_data: {title: foo,body: bar, userId: 1}
+
+test_register:
+  mobile: 17325220662
