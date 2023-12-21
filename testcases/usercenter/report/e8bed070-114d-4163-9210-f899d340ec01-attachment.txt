@@ -1,0 +1,23 @@
+INFO     log:mysql_util.py:44 执行sql：delete from ueser_verifycode where mobile = '17325220662'
+INFO     log:mysql_util.py:48 执行sql出错(1142, "DELETE command denied to user 'vue_shop'@'123.117.182.251' for table 'ueser_verifycode'")
+INFO     log:conftest.py:22 sql执行结果：None
+INFO     log:rest_client.py:46 接口请求的地址为>>>http://admin.5istudy.online/code/
+INFO     log:rest_client.py:47 接口请求的方法>>>POST
+INFO     log:rest_client.py:51 接口请求的json参数>>>
+{
+  "mobile": 17325220662
+}
+INFO     log:response_util.py:14 接口返回的内容是>>>: {"mobile": "17325220662"}
+INFO     log:mysql_util.py:29 执行sql：select code from users_verifycode where mobile = '17325220662' order by id desc limit 1;
+INFO     log:conftest.py:9 sql执行结果：{'code': '0277'}
+INFO     log:rest_client.py:46 接口请求的地址为>>>http://admin.5istudy.online/users/
+INFO     log:rest_client.py:47 接口请求的方法>>>POST
+INFO     log:rest_client.py:51 接口请求的json参数>>>
+{
+  "code": "0277",
+  "password": "123123",
+  "username": "17325220662"
+}
+INFO     log:response_util.py:14 接口返回的内容是>>>: {"username": "17325220662", "mobile": "17325220662", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMzEyMDAsInVzZXJuYW1lIjoiMTczMjUyMjA2NjIiLCJleHAiOjE3MDM3NDgwMDUsImVtYWlsIjpudWxsfQ.UqsMMS_7-Q0EMP7WivGQ_fbsJnyXuEsD2SiEiTnR-kY", "name": "17325220662"}
+INFO     log:mysql_util.py:44 执行sql：delete from users_userprofile where mobile = '17325220662'
+INFO     log:conftest.py:16 sql执行结果：None

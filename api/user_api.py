@@ -10,3 +10,32 @@ def send_code(json_data):
     """
     response = api_util.get_code(json=json_data)
     return process_response(response)
+
+def register(code, mobile):
+    """
+    注册接口
+    :param code:
+    :param mobile:
+    :return:
+    """
+    json_data = {
+        "code":str(code),
+        "password":"123123",
+        "username":str(mobile)
+    }
+    response = api_util.register_mobile(json = json_data)
+    return process_response(response)
+
+def login(username, password):
+    """
+    用户登录接口
+    :param username:
+    :param password:
+    :return:
+    """
+    json_data = {
+        "username": username,
+        "password": password
+    }
+    response = api_util.user_login(json = json_data)
+    return process_response(response)
