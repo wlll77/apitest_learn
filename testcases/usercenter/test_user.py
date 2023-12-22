@@ -1,10 +1,10 @@
 import allure
 import pytest
 
-from api.user_api import send_code, register, login
+from api.user_api import send_code, register, login, add_shopping_cart, add_message
 from testcases.conftest import get_data
-from testcases.usercenter.conftest import get_code, delete_user, delete_code
-
+from testcases.usercenter.conftest import get_code, delete_user, delete_code, get_shop_cart_num
+from utils.read import base_data
 
 
 @allure.feature("用户中心模块")
@@ -35,5 +35,24 @@ class TestUser:
         assert result.success is True
         assert len(result.body['token']) != 0
 
+    @allure.story("购物车相关")
+    @allure.title("加购物车")
+    def test_shopping_cart(self, login_fixture):
+        token = login_fixture[0]
+        username = login_fixture[1]
+        params = get_data()['shopping_cart']
+        result = add_shopping_cart(params, token)
+        # 查询购物车数量
+        num = get_shop_cart_num(username, params["goods"])
+        assert result.success is True
+        assert result.body['nums'] == num
 
-    
+    @allure.story("购物车相关")
+    @allure.title("加购物车")
+    def test_add_message(self, login_fixture):
+        token = login_fixture[0]
+        data = get_data()['add_message']
+        files = base_data.read_file()
+        result = add_message(data, files,token)
+        assert result.success is True
+        assert result.body['subject'] == data['subject']

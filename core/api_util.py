@@ -26,5 +26,13 @@ class Api(RestClient):
     def banner(self, **kwargs):
         return self.get("/banners/", **kwargs)
 
+    # 加购物车
+    def shopping_add(self, **kwargs):
+        return self.post("/shopcarts/", **kwargs)
+
+    # 增加留言
+    def add_message(self, **kwargs):
+        return self.post("/messages/", **kwargs)
+
 
 api_util = Api()

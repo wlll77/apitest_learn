@@ -1,0 +1,23 @@
+[32mINFO    [0m log:mysql_util.py:48 执行sql：delete from users_verifycode where mobile = '17325220662'
+[32mINFO    [0m log:conftest.py:25 sql执行结果：None
+[32mINFO    [0m log:rest_client.py:46 接口请求的地址为>>>http://admin.5istudy.online/code/
+[32mINFO    [0m log:rest_client.py:47 接口请求的方法>>>POST
+[32mINFO    [0m log:rest_client.py:51 接口请求的json参数>>>
+{
+  "mobile": 17325220662
+}
+[32mINFO    [0m log:response_util.py:14 接口返回的内容是>>>: {"mobile": "17325220662"}
+[32mINFO    [0m log:mysql_util.py:29 执行sql：select code from users_verifycode where mobile = '17325220662' order by id desc limit 1;
+[32mINFO    [0m log:mysql_util.py:33 sql执行结果：{'code': '4262'}
+[32mINFO    [0m log:conftest.py:10 sql执行结果：{'code': '4262'}
+[32mINFO    [0m log:rest_client.py:46 接口请求的地址为>>>http://admin.5istudy.online/users/
+[32mINFO    [0m log:rest_client.py:47 接口请求的方法>>>POST
+[32mINFO    [0m log:rest_client.py:51 接口请求的json参数>>>
+{
+  "code": "4262",
+  "password": "123123",
+  "username": "17325220662"
+}
+[32mINFO    [0m log:response_util.py:14 接口返回的内容是>>>: {"username": "17325220662", "mobile": "17325220662", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwMDAzMywidXNlcm5hbWUiOiIxNzMyNTIyMDY2MiIsImV4cCI6MTcwMzg0NTMxOCwiZW1haWwiOm51bGx9.9bSqIZAHb2ntJEwSkU3B92SaGTyJDGHrL9EZgOqZTco", "name": "17325220662"}
+[32mINFO    [0m log:mysql_util.py:48 执行sql：delete from users_userprofile where mobile = '17325220662'
+[32mINFO    [0m log:conftest.py:18 sql执行结果：None

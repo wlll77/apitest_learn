@@ -46,13 +46,13 @@ class RestClient:
         logger.info("接口请求的地址为>>>{}".format(self.api_root_url+url))
         logger.info("接口请求的方法>>>{}".format(method))
         if data is not None:
-            logger.info("接口请求的data参数>>>\n{}".format(json.dumps(data, indent=2)))
+            logger.info("接口请求的data参数>>>\n{}".format(json.dumps(data, ensure_ascii=False, indent=2)))
         if json_data is not None:
-            logger.info("接口请求的json参数>>>\n{}".format(json.dumps(json_data, indent=2)))
+            logger.info("接口请求的json参数>>>\n{}".format(json.dumps(json_data, ensure_ascii=False, indent=2)))
         if params is not None:
-            logger.info("接口请求的params参数>>>\n{}".format(json.dumps(params, indent=2)))
+            logger.info("接口请求的params参数>>>\n{}".format(json.dumps(params, ensure_ascii=False, indent=2)))
         if headers is not None:
-            logger.info("接口请求的headers参数>>>\n{}".format(json.dumps(headers, indent=2)))
+            logger.info("接口请求的headers参数>>>\n{}".format(json.dumps(headers, ensure_ascii=False, indent=2)))
 
 
 Api = RestClient()

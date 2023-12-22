@@ -1,0 +1,24 @@
+INFO     log:rest_client.py:46 接口请求的地址为>>>http://admin.5istudy.online/login/
+INFO     log:rest_client.py:47 接口请求的方法>>>POST
+INFO     log:rest_client.py:51 接口请求的json参数>>>
+{
+  "username": 17325220664,
+  "password": 123123
+}
+INFO     log:response_util.py:14 接口返回的内容是>>>: {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMzExODksInVzZXJuYW1lIjoiMTczMjUyMjA2NjQiLCJleHAiOjE3MDM4NDUxMDcsImVtYWlsIjpudWxsfQ.UrKFBISxK64YMqljUAxX8t0dFaYayQU84MSdRda_D5U"}
+INFO     log:rest_client.py:46 接口请求的地址为>>>http://admin.5istudy.online/shopcarts/
+INFO     log:rest_client.py:47 接口请求的方法>>>POST
+INFO     log:rest_client.py:51 接口请求的json参数>>>
+{
+  "goods": 6,
+  "nums": 1
+}
+INFO     log:rest_client.py:55 接口请求的headers参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMzExODksInVzZXJuYW1lIjoiMTczMjUyMjA2NjQiLCJleHAiOjE3MDM4NDUxMDcsImVtYWlsIjpudWxsfQ.UrKFBISxK64YMqljUAxX8t0dFaYayQU84MSdRda_D5U"
+}
+INFO     log:response_util.py:14 接口返回的内容是>>>: {"nums": 9, "goods": 6}
+INFO     log:mysql_util.py:29 执行sql：SELECT * FROM users_userprofile WHERE mobile = '17325220664'
+INFO     log:mysql_util.py:33 sql执行结果：{'id': 231189, 'password': 'pbkdf2_sha256$100000$Y1Qit0kZWDPV$dynHh0QEoH8srIiTp6729cVKHlfYJWBr3fAHgpDstog=', 'last_login': None, 'is_superuser': 0, 'username': '17325220664', 'first_name': '', 'last_name': '', 'is_staff': 0, 'is_active': 1, 'date_joined': datetime.datetime(2023, 12, 21, 14, 11, 49, 284660), 'name': None, 'birthday': None, 'mobile': '17325220664', 'gender': 'female', 'email': None}
+INFO     log:mysql_util.py:29 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = '231189' and goods_id = '6'
+INFO     log:mysql_util.py:33 sql执行结果：{'nums': 9}

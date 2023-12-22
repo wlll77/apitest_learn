@@ -80,3 +80,18 @@ test_register:
 user_login:
   # 手机号，密码
   - [17325220664,123123]
+
+
+shopping_cart:
+  goods: 6
+  nums: 1
+
+login_fixture:
+  mobile: 17325220664
+  password: 123123
+
+
+add_message:
+  subject: 测试留言
+  message: 我喜欢这个平台
+  message_type: 1

@@ -11,6 +11,7 @@ def send_code(json_data):
     response = api_util.get_code(json=json_data)
     return process_response(response)
 
+
 def register(code, mobile):
     """
     注册接口
@@ -19,12 +20,13 @@ def register(code, mobile):
     :return:
     """
     json_data = {
-        "code":str(code),
-        "password":"123123",
-        "username":str(mobile)
+        "code": str(code),
+        "password": "123123",
+        "username": str(mobile)
     }
-    response = api_util.register_mobile(json = json_data)
+    response = api_util.register_mobile(json=json_data)
     return process_response(response)
+
 
 def login(username, password):
     """
@@ -37,5 +39,33 @@ def login(username, password):
         "username": username,
         "password": password
     }
-    response = api_util.user_login(json = json_data)
+    response = api_util.user_login(json=json_data)
+    return process_response(response)
+
+
+def add_shopping_cart(params, token):
+    """
+    添加购物车
+    :param token:
+    :param params:
+    :return:
+    """
+    headers = {
+        "Authorization": "JWT " + token
+    }
+    response = api_util.shopping_add(json=params, headers=headers)
+    return process_response(response)
+
+def add_message(data, files, token):
+    """
+    增加留言
+    :param data:
+    :param files:
+    :param token:
+    :return:
+    """
+    headers = {
+        "Authorization": "JWT " + token
+    }
+    response = api_util.add_message(data=data, files=files, headers=headers)
     return process_response(response)
