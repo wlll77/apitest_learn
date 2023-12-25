@@ -1,0 +1,1 @@
+{'request_info': {'url': '/login/', 'method': 'POST', 'headers': {'Content-Type': 'application/json'}}, 'case_info': {'json': {'username': 17325220664, 'password': 123123}, 'validate': [{'contains': ['$.token', 'eyjoe']}, {'contains': ['$.token', 'eyjoe']}]}}

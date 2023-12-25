@@ -56,6 +56,7 @@ def add_shopping_cart(params, token):
     response = api_util.shopping_add(json=params, headers=headers)
     return process_response(response)
 
+
 def add_message(data, files, token):
     """
     增加留言
@@ -67,5 +68,28 @@ def add_message(data, files, token):
     headers = {
         "Authorization": "JWT " + token
     }
+    response = api_util.add_message(data=data, files=files, headers=headers)
+    return process_response(response)
+
+
+def add_shopping_cart2(params, headers):
+    """
+    添加购物车
+    :param headers:
+    :param params:
+    :return:
+    """
+    response = api_util.shopping_add(json=params, headers=headers)
+    return process_response(response)
+
+
+def add_message2(data, files, headers):
+    """
+    增加留言
+    :param headers:
+    :param data:
+    :param files:
+    :return:
+    """
     response = api_util.add_message(data=data, files=files, headers=headers)
     return process_response(response)
