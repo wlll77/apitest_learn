@@ -1,0 +1,32 @@
+[2023-12-26 12:29:07,655][rest_client.py 46][INFO]: 接口请求的地址为>>>http://admin.5istudy.online/login/
+[2023-12-26 12:29:07,655][rest_client.py 47][INFO]: 接口请求的方法>>>POST
+[2023-12-26 12:29:07,655][rest_client.py 51][INFO]: 接口请求的json参数>>>
+{
+  "username": 17325220664,
+  "password": 123123
+}
+[2023-12-26 12:29:07,809][response_util.py 14][INFO]: 接口返回的内容是>>>: {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMzExODksInVzZXJuYW1lIjoiMTczMjUyMjA2NjQiLCJleHAiOjE3MDQxNjk3NDUsImVtYWlsIjpudWxsfQ.OZUM8SZd877sa3nKE2dlI0O34u4kHNbihtnPw4pq1BE"}
+[2023-12-26 12:29:07,811][rest_client_new.py 53][INFO]: 接口请求的地址为>>>http://admin.5istudy.online/orders/
+[2023-12-26 12:29:07,811][rest_client_new.py 54][INFO]: 接口请求的方法>>>GET
+[2023-12-26 12:29:07,811][rest_client_new.py 62][INFO]: 接口请求的headers参数>>>
+{
+  "Content-Type": "application/json",
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMzExODksInVzZXJuYW1lIjoiMTczMjUyMjA2NjQiLCJleHAiOjE3MDQxNjk3NDUsImVtYWlsIjpudWxsfQ.OZUM8SZd877sa3nKE2dlI0O34u4kHNbihtnPw4pq1BE"
+}
+[2023-12-26 12:29:07,963][rest_client_new.py 17][INFO]: 接口的返回内容>>>
+[
+  {
+    "id": 6726,
+    "pay_status": "paying",
+    "order_sn": "2023122612082323118956",
+    "trade_no": null,
+    "pay_time": null,
+    "add_time": "2023-12-26 12:08:23",
+    "alipay_url": "https://openapi-sandbox.dl.alipaydev.com/gateway.do?app_id=9021000123614494&biz_content=%7B%22subject%22%3A%222023122612082323118956%22%2C%22out_trade_no%22%3A%222023122612082323118956%22%2C%22total_amount%22%3A2025.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2023-12-26+12%3A29%3A06&version=1.0&sign=rtTDIIXnJraz8GrOVv9pfvtqbKHkgItaAmNqVD0EEIM9rJDar66zbF0RxYtEXxIyIzzVV%2BDQ49don1kSE4qNDJQI5QvC%2BlKQ5zx%2FgHlrbM6dWPBimQOntfmLHpwLDGHxZ32rCLwVNEiYYCl4MQiT%2Fmql%2BaE79CeoKUCEDmcKvItaZfM%2FZhVYOVnt4jjJtSRS7ucingjeb%2FobcgL3MCfGWYe4lGTyOfcmCN%2BFhiraXyn1ABzvYci8fGKdisdrZbcSl8iehZCw4YkMkgqjeinbnJeSknOXliqFHY2I0XyTHj2KhIuMKh0QTcbjaMHnTuDsDmeQmBZnK0loiiPVX9BbLA%3D%3D",
+    "post_script": "1",
+    "order_mount": 2025.0,
+    "address": "北京市北京城区朝阳区1",
+    "signer_name": "1",
+    "singer_mobile": "17325220664"
+  }
+]

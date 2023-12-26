@@ -1,0 +1,74 @@
+INFO     log:rest_client.py:46 接口请求的地址为>>>http://admin.5istudy.online/login/
+INFO     log:rest_client.py:47 接口请求的方法>>>POST
+INFO     log:rest_client.py:51 接口请求的json参数>>>
+{
+  "username": 17325220664,
+  "password": 123123
+}
+INFO     log:response_util.py:14 接口返回的内容是>>>: {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMzExODksInVzZXJuYW1lIjoiMTczMjUyMjA2NjQiLCJleHAiOjE3MDQxOTU5MzAsImVtYWlsIjpudWxsfQ.Oq336wPQyKBlfQFsj-W1snFlV9TR2WNRfD791rNj8ZA"}
+INFO     log:rest_client_new.py:53 接口请求的地址为>>>http://admin.5istudy.online/orders/6728/
+INFO     log:rest_client_new.py:54 接口请求的方法>>>GET
+INFO     log:rest_client_new.py:60 接口请求的params参数>>>
+{
+  "order_id": "6728",
+  "order_id1": "6729"
+}
+INFO     log:rest_client_new.py:62 接口请求的headers参数>>>
+{
+  "Content-Type": "application/json",
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMzExODksInVzZXJuYW1lIjoiMTczMjUyMjA2NjQiLCJleHAiOjE3MDQxOTU5MzAsImVtYWlsIjpudWxsfQ.Oq336wPQyKBlfQFsj-W1snFlV9TR2WNRfD791rNj8ZA"
+}
+INFO     log:rest_client_new.py:17 接口的返回内容>>>
+{
+  "id": 6728,
+  "goods": [
+    {
+      "id": 4919,
+      "goods": {
+        "id": 66,
+        "category": {
+          "id": 3,
+          "sub_cat": [],
+          "add_time": "2019-11-19 13:21:56",
+          "name": "羊肉",
+          "code": "yr",
+          "desc": "",
+          "category_type": 3,
+          "is_tab": false,
+          "parent_category": 2
+        },
+        "images": [],
+        "add_time": "2021-06-19 13:56:00",
+        "goods_sn": "999959",
+        "name": "山羊肉",
+        "click_num": 22,
+        "sold_num": 55,
+        "fav_num": 55,
+        "goods_num": -7,
+        "market_price": 666.0,
+        "shop_price": 888.0,
+        "goods_brief": "精美山羊肉",
+        "goods_desc": "精美山羊肉",
+        "ship_free": true,
+        "goods_front_image": "http://admin.5istudy.online/media/goods/images/%E7%8C%AA%E8%82%893.jpg",
+        "is_new": true,
+        "is_hot": false
+      },
+      "goods_num": 1,
+      "add_time": "2023-12-26T12:32:21.930103",
+      "order": 6728
+    }
+  ],
+  "alipay_url": "https://openapi-sandbox.dl.alipaydev.com/gateway.do?app_id=9021000123614494&biz_content=%7B%22subject%22%3A%222023122612322123118917%22%2C%22out_trade_no%22%3A%222023122612322123118917%22%2C%22total_amount%22%3A888.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2023-12-26+19%3A45%3A30&version=1.0&sign=NoWhedaxQR1lqtw8%2BPOtEB9etv2edRNcQKIauAMUogPkC0tZHZY5MZl3%2B%2FYwqSbCM0F0BS%2Bh%2F0ex7Z%2BqYIdMYHY4IO7Wof8p4Xi%2Be0Sn5yXb37PML%2F2zHTzGOhUT3ZCyFWGBCX7UI2uMFkebtLTtkD%2BH7gv4II27ij0eQXV6igg0NkapVL71VZ%2F1pgwKxuueE1FGiKIFEZq7Gy36AMobVMrEuW2EYhXKpgLIIiyy2EKx9i%2F4pV2sCp4YuSxWP1JFheqjGZlPUjoLggq%2BTk6mJ7bI4P%2BlYZE2YGhSMhUGzEDX9O9CnihRBtMGK4IyTVel4lnT32Uy8V25DoGJ5SV3dg%3D%3D",
+  "order_sn": "2023122612322123118917",
+  "trade_no": null,
+  "pay_status": "paying",
+  "post_script": "1",
+  "order_mount": 888.0,
+  "pay_time": null,
+  "address": "北京市北京城区朝阳区1",
+  "signer_name": "1",
+  "singer_mobile": "17325220664",
+  "add_time": "2023-12-26T12:32:21.925245",
+  "user": 231189
+}

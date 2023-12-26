@@ -1,7 +1,0 @@
-[2023-12-21 10:34:06,443][rest_client.py 46][INFO]: 接口请求的地址为>>>http://admin.5istudy.online/code/
-[2023-12-21 10:34:06,443][rest_client.py 47][INFO]: 接口请求的方法>>>POST
-[2023-12-21 10:34:06,443][rest_client.py 51][INFO]: 接口请求的json参数>>>
-{
-  "mobile": 17325220662
-}
-[2023-12-21 10:34:06,628][response_util.py 14][INFO]: 接口返回的内容是>>>: {"mobile": "17325220662"}

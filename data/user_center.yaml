@@ -1,6 +1,7 @@
 user_login_new:
   # 接口的基本信息
   - request_info:
+      case_title: 登录接口
       url: /login/
       method: POST
       headers:

@@ -1,0 +1,10 @@
+INFO     log:rest_client_new.py:53 接口请求的地址为>>>http://admin.5istudy.online/orders/
+INFO     log:rest_client_new.py:54 接口请求的方法>>>GET
+INFO     log:rest_client_new.py:62 接口请求的headers参数>>>
+{
+  "Content-Type": "application/json"
+}
+INFO     log:rest_client_new.py:17 接口的返回内容>>>
+{
+  "detail": "身份认证信息未提供。"
+}

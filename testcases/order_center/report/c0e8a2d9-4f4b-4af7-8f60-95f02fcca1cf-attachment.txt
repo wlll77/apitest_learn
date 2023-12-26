@@ -1,0 +1,10 @@
+[2023-12-26 12:13:54,285][rest_client_new.py 53][INFO]: 接口请求的地址为>>>http://admin.5istudy.online/orders/
+[2023-12-26 12:13:54,285][rest_client_new.py 54][INFO]: 接口请求的方法>>>GET
+[2023-12-26 12:13:54,285][rest_client_new.py 62][INFO]: 接口请求的headers参数>>>
+{
+  "Content-Type": "application/json"
+}
+[2023-12-26 12:13:54,366][rest_client_new.py 17][INFO]: 接口的返回内容>>>
+{
+  "detail": "身份认证信息未提供。"
+}
