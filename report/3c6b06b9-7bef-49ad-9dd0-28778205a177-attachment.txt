@@ -1,0 +1,8 @@
+[32mINFO    [0m log:rest_client.py:46 接口请求的地址为>>>http://admin.5istudy.online/login/
+[32mINFO    [0m log:rest_client.py:47 接口请求的方法>>>POST
+[32mINFO    [0m log:rest_client.py:51 接口请求的json参数>>>
+{
+  "username": 17325220664,
+  "password": 123123
+}
+[32mINFO    [0m log:response_util.py:14 接口返回的内容是>>>: {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMzExODksInVzZXJuYW1lIjoiMTczMjUyMjA2NjQiLCJleHAiOjE3MDQyNzY0MzAsImVtYWlsIjpudWxsfQ.aINv87gxMiS7UR9MBd90agUZM4i8iQ26101EjbBzAKw"}

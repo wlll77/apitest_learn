@@ -1,0 +1,9 @@
+[32mINFO    [0m log:mysql_util.py:48 执行sql：delete from users_verifycode where mobile = '17325220662'
+[32mINFO    [0m log:conftest.py:25 sql执行结果：None
+[32mINFO    [0m log:rest_client.py:46 接口请求的地址为>>>http://admin.5istudy.online/code/
+[32mINFO    [0m log:rest_client.py:47 接口请求的方法>>>POST
+[32mINFO    [0m log:rest_client.py:51 接口请求的json参数>>>
+{
+  "mobile": 17325220662
+}
+[32mINFO    [0m log:response_util.py:14 接口返回的内容是>>>: {"mobile": "17325220662"}
