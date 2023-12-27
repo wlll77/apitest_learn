@@ -1,0 +1,13 @@
+[32mINFO    [0m log:rest_client.py:46 接口请求的地址为>>>http://admin.5istudy.online/messages/
+[32mINFO    [0m log:rest_client.py:47 接口请求的方法>>>POST
+[32mINFO    [0m log:rest_client.py:49 接口请求的data参数>>>
+{
+  "subject": "测试留言",
+  "message": "我喜欢这个平台",
+  "message_type": 1
+}
+[32mINFO    [0m log:rest_client.py:55 接口请求的headers参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMzExODksInVzZXJuYW1lIjoiMTczMjUyMjA2NjQiLCJleHAiOjE3MDQyNjk3OTUsImVtYWlsIjpudWxsfQ.xD-pFCS9zMaWuSPmyYg6XDZrA2HWA7M9rjIxQh_PIQM"
+}
+[32mINFO    [0m log:response_util.py:14 接口返回的内容是>>>: {"message_type": 1, "subject": "测试留言", "message": "我喜欢这个平台", "file": "http://admin.5istudy.online/media/message/images/uploadlsy_bFcposq.png", "id": 106961, "add_time": "2023-12-27 16:16:35"}
