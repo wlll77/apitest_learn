@@ -1,0 +1,47 @@
+[2023-12-07 20:19:55,876][test_post.py 9][INFO]: 开始执行test_post方法
+[2023-12-07 20:19:55,878][rest_client.py 34][INFO]: 接口请求的地址为>>>https://jsonplaceholder.typicode.com/posts
+[2023-12-07 20:19:55,878][rest_client.py 35][INFO]: 接口请求的方法>>>POST
+[2023-12-07 20:19:55,878][rest_client.py 39][INFO]: 接口请求的json参数>>>
+{
+  "title": "foo",
+  "body": "bar",
+  "userId": 1
+}
+[2023-12-07 20:19:59,187][test_post.py 13][INFO]: 用例执行完毕
+[2023-12-07 20:31:57,043][test_post.py 9][INFO]: 开始执行test_post方法
+[2023-12-07 20:31:57,045][rest_client.py 35][INFO]: 接口请求的地址为>>>https://jsonplaceholder.typicode.com/posts
+[2023-12-07 20:31:57,045][rest_client.py 36][INFO]: 接口请求的方法>>>POST
+[2023-12-07 20:31:57,045][rest_client.py 40][INFO]: 接口请求的json参数>>>
+{
+  "title": "foo",
+  "body": "bar",
+  "userId": 1
+}
+[2023-12-07 20:31:59,634][test_post.py 13][INFO]: 用例执行完毕
+[2023-12-07 20:35:15,283][rest_client.py 45][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/shouji/query
+[2023-12-07 20:35:15,283][rest_client.py 46][INFO]: 接口请求的方法>>>GET
+[2023-12-07 20:35:15,283][rest_client.py 52][INFO]: 接口请求的params参数>>>
+{
+  "shouji": 13456755448,
+  "appkey": "0c818521d38759e1"
+}
+[2023-12-07 20:48:52,626][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-07 20:48:52,630][rest_client.py 45][INFO]: 接口请求的地址为>>>http://sellshop.5istudy.online/sell/posts
+[2023-12-07 20:48:52,630][rest_client.py 46][INFO]: 接口请求的方法>>>POST
+[2023-12-07 20:48:52,630][rest_client.py 50][INFO]: 接口请求的json参数>>>
+{
+  "title": "foo",
+  "body": "bar",
+  "userId": 1
+}
+[2023-12-07 20:48:52,854][conftest.py 9][INFO]: 测试用例执行完毕~
+[2023-12-07 20:49:22,189][conftest.py 7][INFO]: 开始执行测试用例~
+[2023-12-07 20:49:22,192][rest_client.py 45][INFO]: 接口请求的地址为>>>https://jsonplaceholder.typicode.com/posts
+[2023-12-07 20:49:22,192][rest_client.py 46][INFO]: 接口请求的方法>>>POST
+[2023-12-07 20:49:22,192][rest_client.py 50][INFO]: 接口请求的json参数>>>
+{
+  "title": "foo",
+  "body": "bar",
+  "userId": 1
+}
+[2023-12-07 20:49:24,836][conftest.py 9][INFO]: 测试用例执行完毕~
